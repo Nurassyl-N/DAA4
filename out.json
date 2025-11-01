@@ -1,0 +1,205 @@
+{
+  "condensation_dag": {
+    "nodes": 8,
+    "edges": 9
+  },
+  "scc": {
+    "components": [
+      [
+        3,
+        5,
+        4
+      ],
+      [
+        0,
+        2,
+        1
+      ],
+      [6],
+      [7],
+      [8],
+      [9],
+      [10],
+      [11]
+    ],
+    "components_count": 8,
+    "metrics": {
+      "pops": 0,
+      "dfsVisits": 24,
+      "time_ms": 0.119167,
+      "relaxations": 0,
+      "dfsEdges": 30,
+      "pushes": 0
+    }
+  },
+  "dag_longest_paths": {
+    "source_component": 1,
+    "best": [
+      -2305843009213693952,
+      0,
+      2,
+      7,
+      8,
+      11,
+      16,
+      18
+    ],
+    "metrics": {
+      "pops": 0,
+      "dfsVisits": 0,
+      "time_ms": 0.070417,
+      "relaxations": 7,
+      "dfsEdges": 0,
+      "pushes": 0
+    }
+  },
+  "topological_sort": {
+    "metrics": {
+      "pops": 8,
+      "dfsVisits": 0,
+      "time_ms": 0.065625,
+      "relaxations": 0,
+      "dfsEdges": 0,
+      "pushes": 8
+    },
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "dag_shortest_paths": {
+    "source_component": 1,
+    "dist": [
+      9223372036854775807,
+      0,
+      2,
+      7,
+      8,
+      11,
+      16,
+      18
+    ],
+    "metrics": {
+      "pops": 0,
+      "dfsVisits": 0,
+      "time_ms": 0.026333,
+      "relaxations": 7,
+      "dfsEdges": 0,
+      "pushes": 0
+    }
+  },
+  "input_meta": {
+    "weight_model": "edge",
+    "directed": true,
+    "source": 0,
+    "n": 12
+  },
+  "paths_examples": [
+    {
+      "target_component": 0,
+      "shortest_path": [],
+      "longest_path": []
+    },
+    {
+      "target_component": 1,
+      "shortest_path": [1],
+      "longest_path": [1]
+    },
+    {
+      "target_component": 2,
+      "shortest_path": [
+        1,
+        2
+      ],
+      "longest_path": [
+        1,
+        2
+      ]
+    },
+    {
+      "target_component": 3,
+      "shortest_path": [
+        1,
+        2,
+        3
+      ],
+      "longest_path": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "target_component": 4,
+      "shortest_path": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "longest_path": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "target_component": 5,
+      "shortest_path": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "longest_path": [
+        1,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "target_component": 6,
+      "shortest_path": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "longest_path": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "target_component": 7,
+      "shortest_path": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "longest_path": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ]
+    }
+  ]
+}
